@@ -1,31 +1,25 @@
 {
-  "name": "stromsy",
-  "version": "0.0.55",
-  "description": "https://blog.pshrmn.com/entry/simple-react-router-v4-tutorial/",
-  "keywords": [],
-  "main": "index.js",
+  "name": "stromsy-react",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "react-router-dom": "4.1.1",
-    "react-dom": "15.5.3",
-    "react": "15.5.3"
-  },
-  "devDependencies": {
-    "react-scripts": "1.0.0"
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ekoly/stromsy-react.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "ekoly",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ekoly/stromsy-react/issues"
-  },
-  "homepage": "https://github.com/ekoly/stromsy-react#readme"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

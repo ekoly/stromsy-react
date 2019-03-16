@@ -1,3 +1,5 @@
 *.swp
 *.png
 img/*
+node_modules/*
+
