@@ -261,7 +261,6 @@ section.margin-section {
 #content {
 	padding: 0;
 	margin: 15px 0 0 0;
-	background-color: rgb(245,229,208);
 	width: 100%;
 }
 
@@ -271,6 +270,7 @@ section.margin-section {
     color: #202020;
     text-align: justify;
     margin-bottom: 25px;
+	background-color: rgb(245,229,208);
 }
 #content article:last {
     margin-bottom: 0;
@@ -577,6 +577,7 @@ footer {
 	text-align: center;
 	background-color: #511;
 	width: 100%;
+	color: rgb(245,229,208);
 }
 
 footer a {
@@ -589,7 +590,7 @@ footer a:visited {
 	color: rgb(245,229,208);
 }
 footer a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 	color: rgb(245,229,208);
 }
 

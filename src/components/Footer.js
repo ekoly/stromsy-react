@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                <section><Link to="/about">About</Link></section>
+                <section><Link to="/about">About</Link> | <Link to="/blog">Blog</Link></section>
             </footer>
         );
     }
