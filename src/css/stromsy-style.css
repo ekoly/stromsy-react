@@ -114,7 +114,8 @@ section.margin-section {
 	margin: 0;
 	padding: 0;
 }
-#main-logo-title {
+#main-logo-title,
+#main-logo-title.active {
 	font-size: 150%;
 	color: rgb(245,229,208);
 	float: left;
@@ -127,7 +128,8 @@ section.margin-section {
 	padding: 0;
     color: rgb(245,229,208);
 }
-#nav-main-logo-title {
+#nav-main-logo-title,
+#nav-main-logo-title.active {
 	font-size: 14pt;
 	color: rgb(245,229,208);
 	float: left;
@@ -160,7 +162,9 @@ section.margin-section {
 #banner nav ul li a:hover {
 	text-decoration: underline;
 }
-#banner nav ul li a.activetab {
+#banner nav ul li a.active {
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 #banner input {
@@ -297,6 +301,10 @@ section.margin-section {
     text-decoration: none;
 }
 
+#content article.blog-post {
+    word-wrap: break-word;
+}
+
 #content article.blog-post h3 {
     color: #511;
     margin-top: 0;
@@ -336,6 +344,7 @@ section.margin-section {
 }
 
 #content article.blog-post .post-time {
+    margin-top: 30px;
     margin-bottom: 0;
 }
 

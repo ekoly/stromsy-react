@@ -1,22 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class NotFound extends Component {
+const NotFound = () => {
 
-    render() {
-
-        return (
-            <section id="content">
-                <article class="blog-post">
-                    <h3>Page Not Found</h3>
-                    <blockquote>
-                        <p>Perhaps one day we will have machines that can cope with approximate task descriptions, but in the meantime, we have to be very prissy about how we tell computers to do things.</p>
-                    </blockquote>
-                    <p>- Feynman</p>
-                </article>
-            </section>
-        );
-
-    }
+    return (
+        <section id="content">
+            <article class="blog-post">
+                <h3>Page Not Found</h3>
+                <blockquote>
+                    <p>Perhaps one day we will have machines that can cope with approximate task descriptions, but in the meantime, we have to be very prissy about how we tell computers to do things.</p>
+                </blockquote>
+                <p>- Feynman</p>
+            </article>
+        </section>
+    );
 
 }
 

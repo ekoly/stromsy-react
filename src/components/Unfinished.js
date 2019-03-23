@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Unfinished extends Component {
-    render() {
-        return (
-            <section id="content">
-                <article>
-                    <p>
-                        Under construction
-                    </p>
-                </article>
-            </section>
-        );
-    }
+const Unfinished = () => {
+
+    return (
+        <section id="content">
+            <article>
+                <p>
+                    Under construction
+                </p>
+            </article>
+        </section>
+    );
+
 }
 
 export default Unfinished

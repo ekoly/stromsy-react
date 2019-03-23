@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/stromsy-style.css';
 
-class Footer extends Component {
-    render() {
-        return (
-            <footer>
-                <section><Link to="/about">About</Link> | <Link to="/blog">Blog</Link></section>
-            </footer>
-        );
-    }
+const Footer = () => {
+
+    return (
+        <footer>
+            <section><Link to="/about">About</Link> | <Link to="/blog">Blog</Link></section>
+        </footer>
+    );
+
 }
 
 export default Footer
